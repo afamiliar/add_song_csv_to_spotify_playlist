@@ -1,7 +1,7 @@
 # Import (an Excel) song list into a Spotify playlist
 March 2025
 
-I was given a list of 434 songs and wanted to create a corresponding Spotify playlist, but the only existing solutions were by a third-party and I didn't want to allow access to my personal Spotify credentials. Instead, here is a Python script I developed to take a list of songs in CSV format (expects columns "Song" and "Artist") and add them to a Spotify playlist.
+A Python script I developed to take a list of songs in CSV format (expects columns "Song" and "Artist") and add them to a Spotify playlist. This avoids the need to provide access to personal credentials to a third-party (the only equivalent, existing solution I could find).
 ```
 import_CSV_to_spotify.py
 ```
